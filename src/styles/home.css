@@ -1,0 +1,107 @@
+body{
+  background-color: #E0D89F;
+  font-size: large;
+}
+.header {
+    margin: 0;
+    padding: 0;
+    height: 20vw;
+    background-repeat: no-repeat;
+    background: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80') no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .threeD {
+
+    color: darkgrey;
+    white-space: nowrap;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+      font-family: 'NTR', sans-serif;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    text-shadow: 1px 1px 0 #7D2181, 1px 2px 0 #7D2181, 1px 3px 0 #7D2181, 1px 4px 0 #7D2181,
+      1px 5px 0 #7D2181, 1px 6px 0 #7D2181, 1px 7px 0 #7D2181, 1px 8px 0 #7D2181,
+      5px 13px 15px black;
+  }
+  
+  .threeD:hover {
+    transition: 0.3s;
+    transform: scale(1.1)translate(-50%, -50%);
+    text-shadow: 1px -1px 0 #7D2181, 1px -2px 0 #7D2181, 1px -3px 0 #7D2181,
+      1px -4px 0 #7D2181, 1px -5px 0 #7D2181, 1px -6px 0 #7D2181, 1px -7px 0 #7D2181,
+      1px -8px 0 #7D2181, 5px -13px 15px black, 5px -13px 25px #808080;
+  }
+ 
+
+
+.about{
+margin-top: 100px;
+background-color: #E0D89F;
+font-family: 'Short Stack', cursive;
+
+}
+.icon{
+  color: #756575;
+  margin-bottom: 50px;
+}
+.project{
+    margin-top: 70px;
+    background-color: #fffdf7;
+    font-family: 'NTR', sans-serif;
+
+    
+    }
+.proj:hover {filter: sepia(60%);}
+
+.skill{
+  background-color: #BD9739;
+}
+.skl:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #1eecca;
+    -webkit-box-shadow: 0px 0px 15px 15px #1eecca;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
+    .contact {
+      background-color: #6A98C1;
+      font-family: 'NTR', sans-serif;
+
+    }
+
+.title{
+  font-family: 'Bowlby One', cursive;
+     color:#4F465C;
+    }
+  
+.send{
+ color: #A8903D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
