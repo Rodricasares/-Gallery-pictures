@@ -19,6 +19,8 @@ export const About = () => (
           </svg>
         </div>
         <h1 className="title  fw-bold mb-3">Perfil</h1>
+
+        
         Mi “Hola Mundo ! ” Comenzó en septiembre de 2009 en la que realice un
         ciclo '' F.P. Micro Sistemas y redes.” el cual me aportó mucho a nivel
         hardware y mis primeros pasos en esto de la programación con HTML, CSS,
