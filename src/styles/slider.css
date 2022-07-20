@@ -1,11 +1,16 @@
+.title{
+    font-family: 'Bebas Neue', cursive;
+
+}
 .item{
-    height: 16rem;
-    min-width: 16rem;
-    padding:1rem;
+    height: 50rem;
+    min-width: 50rem;
+    padding:2rem;
+    
 }
 
 .item img{
-    height: 45%;
+    height: 60%;
     width: auto;
     pointer-events:none;
 }
@@ -16,6 +21,6 @@
 }
 
 .slider-container{
-    margin: 0 auto;
+    margin: 2 auto;
     overflow-x: hidden;
 }
