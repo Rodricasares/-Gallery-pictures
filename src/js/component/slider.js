@@ -4,7 +4,7 @@ import "../../styles/slider.css";
 import { motion } from "framer-motion";
 
 export const Slider = () => (
-  <div className="skill container ">
+  <div className="container ">
     <div className="row ">
       <div className="col text-secondary">
         <div className="row mt-5 ">
@@ -30,7 +30,7 @@ export const Slider = () => (
             >
               {images.map((image) => (
                 <motion.div className="item mt-5">
-                  <img src={image} alt="" className="rounded" />
+                  <img src={image} alt="" className="shadow  mb-5 bg-body rounded" />
                 </motion.div>
               ))}
             </motion.div>
