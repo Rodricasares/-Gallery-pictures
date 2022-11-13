@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 export const Slider = () => (
   <div className="container ">
+
     <div className="row ">
       <div className="col text-secondary">
         <div className="row mt-5 ">
@@ -13,7 +14,7 @@ export const Slider = () => (
             width="80"
             height="80"
             fill="currentColor"
-            class="bi bi-images"
+            className="bi bi-images"
             viewBox="0 0 16 16"
           >
             <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
@@ -26,10 +27,10 @@ export const Slider = () => (
             <motion.div
               className="slider"
               drag="x"
-              dragConstraints={{ right: 0, left: -3500 }}
+              dragConstraints={{ right: 0, left: -2800 }}
             >
-              {images.map((image) => (
-                <motion.div className="item mt-5">
+              {images.map((image, index) => (
+                <motion.div className="item mt-5" key={index}>
                   <img src={image} alt="" className="shadow  mb-5 bg-body rounded" />
                 </motion.div>
               ))}

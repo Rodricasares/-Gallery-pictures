@@ -4,13 +4,13 @@
 }
 .item{
     height: 50rem;
-    min-width: 50rem;
+    min-width: 20rem;
     padding:2rem;
     
 }
 
 .item img{
-    height: 60%;
+    height: 25%;
     width: auto;
     pointer-events:none;
 }
@@ -21,6 +21,6 @@
 }
 
 .slider-container{
-    margin: 2 auto;
+    margin: auto;
     overflow-x: hidden;
 }
